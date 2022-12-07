@@ -63,6 +63,19 @@ body {
     height: 400px;
     gap: 16px;
 }
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 32px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
 ul {
     list-style: none;
     display: flex;
@@ -100,4 +113,13 @@ a {
     height: 150px;
     border-radius: 8px;
     padding: 5px;
+}
+.quote .writer {
+    text-align: right;
+    font-weight: bold;
+    color: #1f2937;
+    font-style: normal;
+}
+.saying {
+    margin-bottom: 0;
 }
