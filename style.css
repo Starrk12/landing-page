@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 .header, .body {
     display: flex;
@@ -92,6 +93,13 @@ body {
     margin: 100px 250px;
     border-radius: 8px;
 }
+.footer {
+    background-color: #1f2937;
+    vertical-align: middle;
+    text-align: center;
+    color: #f9faf8;
+    padding: 50px 50px;
+}
 ul {
     list-style: none;
     display: flex;
@@ -107,6 +115,7 @@ ul {
     padding: 8px 24px;
     border: #3882f6;
     border-radius: 8px;
+    cursor: pointer;
 }
 .button {
     margin-top: 8px;
